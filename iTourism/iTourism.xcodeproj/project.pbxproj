@@ -1,0 +1,767 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96412CD920547E0400EA3C79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96412CD820547E0400EA3C79 /* AppDelegate.swift */; };
+		96412CDB20547E0400EA3C79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96412CDA20547E0400EA3C79 /* ViewController.swift */; };
+		96412CDE20547E0400EA3C79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96412CDC20547E0400EA3C79 /* Main.storyboard */; };
+		96412CE020547E0400EA3C79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96412CDF20547E0400EA3C79 /* Assets.xcassets */; };
+		96412CE320547E0400EA3C79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96412CE120547E0400EA3C79 /* LaunchScreen.storyboard */; };
+		96412CEE20547E0400EA3C79 /* iTourismTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96412CED20547E0400EA3C79 /* iTourismTests.swift */; };
+		96412CF920547E0400EA3C79 /* iTourismUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96412CF820547E0400EA3C79 /* iTourismUITests.swift */; };
+		C54F0536CED9C681B87565EC /* Pods_iTourismUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F65527CE703784148027925 /* Pods_iTourismUITests.framework */; };
+		D51F7002C88AF58D5825DEE5 /* Pods_iTourismTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49CD590650FB9460BFDF9A9E /* Pods_iTourismTests.framework */; };
+		D8A85D595906581892828078 /* Pods_iTourism.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD0A02E78D3FA426280B1BE8 /* Pods_iTourism.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		96412CEA20547E0400EA3C79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96412CCD20547E0400EA3C79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96412CD420547E0400EA3C79;
+			remoteInfo = iTourism;
+		};
+		96412CF520547E0400EA3C79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96412CCD20547E0400EA3C79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96412CD420547E0400EA3C79;
+			remoteInfo = iTourism;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19618F813BA2F55DD68FB4F9 /* Pods-iTourismTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTourismTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iTourismTests/Pods-iTourismTests.release.xcconfig"; sourceTree = "<group>"; };
+		466CC2EE8DED7FA83E4C47C5 /* Pods-iTourismUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTourismUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iTourismUITests/Pods-iTourismUITests.release.xcconfig"; sourceTree = "<group>"; };
+		49CD590650FB9460BFDF9A9E /* Pods_iTourismTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iTourismTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77029B593E48CC5FBE92D4E8 /* Pods-iTourismUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTourismUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iTourismUITests/Pods-iTourismUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		787E3F3AEEE883F4586FD271 /* Pods-iTourism.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTourism.release.xcconfig"; path = "Pods/Target Support Files/Pods-iTourism/Pods-iTourism.release.xcconfig"; sourceTree = "<group>"; };
+		7F78A4849577B6CB08FAE6CD /* Pods-iTourism.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTourism.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iTourism/Pods-iTourism.debug.xcconfig"; sourceTree = "<group>"; };
+		8F65527CE703784148027925 /* Pods_iTourismUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iTourismUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96412CD520547E0400EA3C79 /* iTourism.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTourism.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96412CD820547E0400EA3C79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		96412CDA20547E0400EA3C79 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		96412CDD20547E0400EA3C79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		96412CDF20547E0400EA3C79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96412CE220547E0400EA3C79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		96412CE420547E0400EA3C79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96412CE920547E0400EA3C79 /* iTourismTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTourismTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96412CED20547E0400EA3C79 /* iTourismTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTourismTests.swift; sourceTree = "<group>"; };
+		96412CEF20547E0400EA3C79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96412CF420547E0400EA3C79 /* iTourismUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTourismUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96412CF820547E0400EA3C79 /* iTourismUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTourismUITests.swift; sourceTree = "<group>"; };
+		96412CFA20547E0400EA3C79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD0A02E78D3FA426280B1BE8 /* Pods_iTourism.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iTourism.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD7E3BCA1B7C27316E3F6086 /* Pods-iTourismTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTourismTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iTourismTests/Pods-iTourismTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96412CD220547E0400EA3C79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8A85D595906581892828078 /* Pods_iTourism.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96412CE620547E0400EA3C79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D51F7002C88AF58D5825DEE5 /* Pods_iTourismTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96412CF120547E0400EA3C79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C54F0536CED9C681B87565EC /* Pods_iTourismUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0880CFEE518944050F132DB5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD0A02E78D3FA426280B1BE8 /* Pods_iTourism.framework */,
+				49CD590650FB9460BFDF9A9E /* Pods_iTourismTests.framework */,
+				8F65527CE703784148027925 /* Pods_iTourismUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F2592426E21A6D114D84680 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F78A4849577B6CB08FAE6CD /* Pods-iTourism.debug.xcconfig */,
+				787E3F3AEEE883F4586FD271 /* Pods-iTourism.release.xcconfig */,
+				BD7E3BCA1B7C27316E3F6086 /* Pods-iTourismTests.debug.xcconfig */,
+				19618F813BA2F55DD68FB4F9 /* Pods-iTourismTests.release.xcconfig */,
+				77029B593E48CC5FBE92D4E8 /* Pods-iTourismUITests.debug.xcconfig */,
+				466CC2EE8DED7FA83E4C47C5 /* Pods-iTourismUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		96412CCC20547E0400EA3C79 = {
+			isa = PBXGroup;
+			children = (
+				96412CD720547E0400EA3C79 /* iTourism */,
+				96412CEC20547E0400EA3C79 /* iTourismTests */,
+				96412CF720547E0400EA3C79 /* iTourismUITests */,
+				96412CD620547E0400EA3C79 /* Products */,
+				6F2592426E21A6D114D84680 /* Pods */,
+				0880CFEE518944050F132DB5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		96412CD620547E0400EA3C79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96412CD520547E0400EA3C79 /* iTourism.app */,
+				96412CE920547E0400EA3C79 /* iTourismTests.xctest */,
+				96412CF420547E0400EA3C79 /* iTourismUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96412CD720547E0400EA3C79 /* iTourism */ = {
+			isa = PBXGroup;
+			children = (
+				96412CD820547E0400EA3C79 /* AppDelegate.swift */,
+				96412CDA20547E0400EA3C79 /* ViewController.swift */,
+				96412CDC20547E0400EA3C79 /* Main.storyboard */,
+				96412CDF20547E0400EA3C79 /* Assets.xcassets */,
+				96412CE120547E0400EA3C79 /* LaunchScreen.storyboard */,
+				96412CE420547E0400EA3C79 /* Info.plist */,
+			);
+			path = iTourism;
+			sourceTree = "<group>";
+		};
+		96412CEC20547E0400EA3C79 /* iTourismTests */ = {
+			isa = PBXGroup;
+			children = (
+				96412CED20547E0400EA3C79 /* iTourismTests.swift */,
+				96412CEF20547E0400EA3C79 /* Info.plist */,
+			);
+			path = iTourismTests;
+			sourceTree = "<group>";
+		};
+		96412CF720547E0400EA3C79 /* iTourismUITests */ = {
+			isa = PBXGroup;
+			children = (
+				96412CF820547E0400EA3C79 /* iTourismUITests.swift */,
+				96412CFA20547E0400EA3C79 /* Info.plist */,
+			);
+			path = iTourismUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96412CD420547E0400EA3C79 /* iTourism */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96412CFD20547E0400EA3C79 /* Build configuration list for PBXNativeTarget "iTourism" */;
+			buildPhases = (
+				5C0F6B0EF0C39FB95840EEF5 /* [CP] Check Pods Manifest.lock */,
+				96412CD120547E0400EA3C79 /* Sources */,
+				96412CD220547E0400EA3C79 /* Frameworks */,
+				96412CD320547E0400EA3C79 /* Resources */,
+				C3F33F58B0B1A07A7F567BE9 /* [CP] Embed Pods Frameworks */,
+				067B1F5173A404EA9E7A19E3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iTourism;
+			productName = iTourism;
+			productReference = 96412CD520547E0400EA3C79 /* iTourism.app */;
+			productType = "com.apple.product-type.application";
+		};
+		96412CE820547E0400EA3C79 /* iTourismTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96412D0020547E0400EA3C79 /* Build configuration list for PBXNativeTarget "iTourismTests" */;
+			buildPhases = (
+				80BE6F97ED57058CCE59A5A2 /* [CP] Check Pods Manifest.lock */,
+				96412CE520547E0400EA3C79 /* Sources */,
+				96412CE620547E0400EA3C79 /* Frameworks */,
+				96412CE720547E0400EA3C79 /* Resources */,
+				221A0B0D583B72D2BAC93039 /* [CP] Embed Pods Frameworks */,
+				D34550EDF58C9859BFFC306D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96412CEB20547E0400EA3C79 /* PBXTargetDependency */,
+			);
+			name = iTourismTests;
+			productName = iTourismTests;
+			productReference = 96412CE920547E0400EA3C79 /* iTourismTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		96412CF320547E0400EA3C79 /* iTourismUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96412D0320547E0400EA3C79 /* Build configuration list for PBXNativeTarget "iTourismUITests" */;
+			buildPhases = (
+				BBB18CB16DC11906817206FE /* [CP] Check Pods Manifest.lock */,
+				96412CF020547E0400EA3C79 /* Sources */,
+				96412CF120547E0400EA3C79 /* Frameworks */,
+				96412CF220547E0400EA3C79 /* Resources */,
+				93D16E4D4D36CAE9AEA21B25 /* [CP] Embed Pods Frameworks */,
+				CDAAD687ACC73BC82351A352 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96412CF620547E0400EA3C79 /* PBXTargetDependency */,
+			);
+			name = iTourismUITests;
+			productName = iTourismUITests;
+			productReference = 96412CF420547E0400EA3C79 /* iTourismUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96412CCD20547E0400EA3C79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = LegnaFilloy;
+				TargetAttributes = {
+					96412CD420547E0400EA3C79 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					96412CE820547E0400EA3C79 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 96412CD420547E0400EA3C79;
+					};
+					96412CF320547E0400EA3C79 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 96412CD420547E0400EA3C79;
+					};
+				};
+			};
+			buildConfigurationList = 96412CD020547E0400EA3C79 /* Build configuration list for PBXProject "iTourism" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96412CCC20547E0400EA3C79;
+			productRefGroup = 96412CD620547E0400EA3C79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96412CD420547E0400EA3C79 /* iTourism */,
+				96412CE820547E0400EA3C79 /* iTourismTests */,
+				96412CF320547E0400EA3C79 /* iTourismUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96412CD320547E0400EA3C79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96412CE320547E0400EA3C79 /* LaunchScreen.storyboard in Resources */,
+				96412CE020547E0400EA3C79 /* Assets.xcassets in Resources */,
+				96412CDE20547E0400EA3C79 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96412CE720547E0400EA3C79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96412CF220547E0400EA3C79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		067B1F5173A404EA9E7A19E3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iTourism/Pods-iTourism-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		221A0B0D583B72D2BAC93039 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iTourismTests/Pods-iTourismTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C0F6B0EF0C39FB95840EEF5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iTourism-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80BE6F97ED57058CCE59A5A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iTourismTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93D16E4D4D36CAE9AEA21B25 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iTourismUITests/Pods-iTourismUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBB18CB16DC11906817206FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iTourismUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3F33F58B0B1A07A7F567BE9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iTourism/Pods-iTourism-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDAAD687ACC73BC82351A352 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iTourismUITests/Pods-iTourismUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D34550EDF58C9859BFFC306D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iTourismTests/Pods-iTourismTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96412CD120547E0400EA3C79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96412CDB20547E0400EA3C79 /* ViewController.swift in Sources */,
+				96412CD920547E0400EA3C79 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96412CE520547E0400EA3C79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96412CEE20547E0400EA3C79 /* iTourismTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96412CF020547E0400EA3C79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96412CF920547E0400EA3C79 /* iTourismUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		96412CEB20547E0400EA3C79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96412CD420547E0400EA3C79 /* iTourism */;
+			targetProxy = 96412CEA20547E0400EA3C79 /* PBXContainerItemProxy */;
+		};
+		96412CF620547E0400EA3C79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96412CD420547E0400EA3C79 /* iTourism */;
+			targetProxy = 96412CF520547E0400EA3C79 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		96412CDC20547E0400EA3C79 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96412CDD20547E0400EA3C79 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		96412CE120547E0400EA3C79 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96412CE220547E0400EA3C79 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96412CFB20547E0400EA3C79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		96412CFC20547E0400EA3C79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96412CFE20547E0400EA3C79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F78A4849577B6CB08FAE6CD /* Pods-iTourism.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 58NKCGB7TD;
+				INFOPLIST_FILE = iTourism/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.legnafilloy.iTourism;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		96412CFF20547E0400EA3C79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 787E3F3AEEE883F4586FD271 /* Pods-iTourism.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 58NKCGB7TD;
+				INFOPLIST_FILE = iTourism/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.legnafilloy.iTourism;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		96412D0120547E0400EA3C79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD7E3BCA1B7C27316E3F6086 /* Pods-iTourismTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 58NKCGB7TD;
+				INFOPLIST_FILE = iTourismTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.legnafilloy.iTourismTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iTourism.app/iTourism";
+			};
+			name = Debug;
+		};
+		96412D0220547E0400EA3C79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19618F813BA2F55DD68FB4F9 /* Pods-iTourismTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 58NKCGB7TD;
+				INFOPLIST_FILE = iTourismTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.legnafilloy.iTourismTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iTourism.app/iTourism";
+			};
+			name = Release;
+		};
+		96412D0420547E0400EA3C79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77029B593E48CC5FBE92D4E8 /* Pods-iTourismUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 58NKCGB7TD;
+				INFOPLIST_FILE = iTourismUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.legnafilloy.iTourismUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iTourism;
+			};
+			name = Debug;
+		};
+		96412D0520547E0400EA3C79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 466CC2EE8DED7FA83E4C47C5 /* Pods-iTourismUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 58NKCGB7TD;
+				INFOPLIST_FILE = iTourismUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.legnafilloy.iTourismUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iTourism;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96412CD020547E0400EA3C79 /* Build configuration list for PBXProject "iTourism" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96412CFB20547E0400EA3C79 /* Debug */,
+				96412CFC20547E0400EA3C79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96412CFD20547E0400EA3C79 /* Build configuration list for PBXNativeTarget "iTourism" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96412CFE20547E0400EA3C79 /* Debug */,
+				96412CFF20547E0400EA3C79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96412D0020547E0400EA3C79 /* Build configuration list for PBXNativeTarget "iTourismTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96412D0120547E0400EA3C79 /* Debug */,
+				96412D0220547E0400EA3C79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96412D0320547E0400EA3C79 /* Build configuration list for PBXNativeTarget "iTourismUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96412D0420547E0400EA3C79 /* Debug */,
+				96412D0520547E0400EA3C79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96412CCD20547E0400EA3C79 /* Project object */;
+}
