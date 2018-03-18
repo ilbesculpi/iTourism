@@ -14,6 +14,32 @@
 		96412CE320547E0400EA3C79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96412CE120547E0400EA3C79 /* LaunchScreen.storyboard */; };
 		96412CEE20547E0400EA3C79 /* iTourismTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96412CED20547E0400EA3C79 /* iTourismTests.swift */; };
 		96412CF920547E0400EA3C79 /* iTourismUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96412CF820547E0400EA3C79 /* iTourismUITests.swift */; };
+		96F9DA47205EB9CD00E247B0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F9DA46205EB9CD00E247B0 /* LoginViewController.swift */; };
+		96F9DA49205EB9E000E247B0 /* LoginContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F9DA48205EB9E000E247B0 /* LoginContract.swift */; };
+		96F9DA4D205EBA0500E247B0 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F9DA4C205EBA0500E247B0 /* LoginPresenter.swift */; };
+		96F9DA4F205EBA1900E247B0 /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F9DA4E205EBA1900E247B0 /* LoginRouter.swift */; };
+		96F9DA52205EBA5B00E247B0 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F9DA51205EBA5B00E247B0 /* BaseViewController.swift */; };
+		96F9DA54205EBA6800E247B0 /* BaseContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F9DA53205EBA6800E247B0 /* BaseContract.swift */; };
+		96F9DA56205EBA7800E247B0 /* BasePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F9DA55205EBA7800E247B0 /* BasePresenter.swift */; };
+		96F9DA58205EBD7600E247B0 /* AuthInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F9DA57205EBD7600E247B0 /* AuthInteractor.swift */; };
+		96F9DA5A205EBD9800E247B0 /* BaseInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F9DA59205EBD9800E247B0 /* BaseInteractor.swift */; };
+		96F9DA5E205EC86600E247B0 /* RemoteStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F9DA5D205EC86600E247B0 /* RemoteStore.swift */; };
+		96F9DA60205EC87200E247B0 /* RemoteStoreContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F9DA5F205EC87200E247B0 /* RemoteStoreContract.swift */; };
+		96F9DA62205ECE9300E247B0 /* RemoteStore+Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F9DA61205ECE9300E247B0 /* RemoteStore+Auth.swift */; };
+		96F9DA64205ECED200E247B0 /* RemoteStore+Attractions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F9DA63205ECED200E247B0 /* RemoteStore+Attractions.swift */; };
+		96F9DA66205ED97900E247B0 /* Auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96F9DA65205ED97900E247B0 /* Auth.storyboard */; };
+		96F9DA69205EDAD300E247B0 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F9DA68205EDAD300E247B0 /* IntroViewController.swift */; };
+		96F9DA6B205EDB1C00E247B0 /* IntroContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F9DA6A205EDB1C00E247B0 /* IntroContract.swift */; };
+		96F9DA6F205EDB7B00E247B0 /* IntroPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F9DA6E205EDB7B00E247B0 /* IntroPresenter.swift */; };
+		96F9DA71205EDB9000E247B0 /* IntroRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F9DA70205EDB9000E247B0 /* IntroRouter.swift */; };
+		96F9DA74205EDBAC00E247B0 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F9DA73205EDBAC00E247B0 /* SplashViewController.swift */; };
+		96F9DA76205EDBB700E247B0 /* SplashContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F9DA75205EDBB700E247B0 /* SplashContract.swift */; };
+		96F9DA78205EDBC200E247B0 /* SplashConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F9DA77205EDBC200E247B0 /* SplashConfigurator.swift */; };
+		96F9DA7A205EDBCD00E247B0 /* SplashPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F9DA79205EDBCD00E247B0 /* SplashPresenter.swift */; };
+		96F9DA7C205EDBD700E247B0 /* SplashRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F9DA7B205EDBD700E247B0 /* SplashRouter.swift */; };
+		96F9DA7E205EE17B00E247B0 /* BaseRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F9DA7D205EE17B00E247B0 /* BaseRouter.swift */; };
+		96F9DA80205EE65300E247B0 /* BaseConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F9DA7F205EE65300E247B0 /* BaseConfigurator.swift */; };
+		96F9DA82205EF4EA00E247B0 /* IntroConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F9DA81205EF4EA00E247B0 /* IntroConfigurator.swift */; };
 		C54F0536CED9C681B87565EC /* Pods_iTourismUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F65527CE703784148027925 /* Pods_iTourismUITests.framework */; };
 		D51F7002C88AF58D5825DEE5 /* Pods_iTourismTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49CD590650FB9460BFDF9A9E /* Pods_iTourismTests.framework */; };
 		D8A85D595906581892828078 /* Pods_iTourism.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD0A02E78D3FA426280B1BE8 /* Pods_iTourism.framework */; };
@@ -57,6 +83,32 @@
 		96412CF420547E0400EA3C79 /* iTourismUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTourismUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96412CF820547E0400EA3C79 /* iTourismUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTourismUITests.swift; sourceTree = "<group>"; };
 		96412CFA20547E0400EA3C79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96F9DA46205EB9CD00E247B0 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		96F9DA48205EB9E000E247B0 /* LoginContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginContract.swift; sourceTree = "<group>"; };
+		96F9DA4C205EBA0500E247B0 /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		96F9DA4E205EBA1900E247B0 /* LoginRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
+		96F9DA51205EBA5B00E247B0 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		96F9DA53205EBA6800E247B0 /* BaseContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseContract.swift; sourceTree = "<group>"; };
+		96F9DA55205EBA7800E247B0 /* BasePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePresenter.swift; sourceTree = "<group>"; };
+		96F9DA57205EBD7600E247B0 /* AuthInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthInteractor.swift; sourceTree = "<group>"; };
+		96F9DA59205EBD9800E247B0 /* BaseInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseInteractor.swift; sourceTree = "<group>"; };
+		96F9DA5D205EC86600E247B0 /* RemoteStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteStore.swift; sourceTree = "<group>"; };
+		96F9DA5F205EC87200E247B0 /* RemoteStoreContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteStoreContract.swift; sourceTree = "<group>"; };
+		96F9DA61205ECE9300E247B0 /* RemoteStore+Auth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RemoteStore+Auth.swift"; sourceTree = "<group>"; };
+		96F9DA63205ECED200E247B0 /* RemoteStore+Attractions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RemoteStore+Attractions.swift"; sourceTree = "<group>"; };
+		96F9DA65205ED97900E247B0 /* Auth.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Auth.storyboard; sourceTree = "<group>"; };
+		96F9DA68205EDAD300E247B0 /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		96F9DA6A205EDB1C00E247B0 /* IntroContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroContract.swift; sourceTree = "<group>"; };
+		96F9DA6E205EDB7B00E247B0 /* IntroPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroPresenter.swift; sourceTree = "<group>"; };
+		96F9DA70205EDB9000E247B0 /* IntroRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroRouter.swift; sourceTree = "<group>"; };
+		96F9DA73205EDBAC00E247B0 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		96F9DA75205EDBB700E247B0 /* SplashContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashContract.swift; sourceTree = "<group>"; };
+		96F9DA77205EDBC200E247B0 /* SplashConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashConfigurator.swift; sourceTree = "<group>"; };
+		96F9DA79205EDBCD00E247B0 /* SplashPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashPresenter.swift; sourceTree = "<group>"; };
+		96F9DA7B205EDBD700E247B0 /* SplashRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashRouter.swift; sourceTree = "<group>"; };
+		96F9DA7D205EE17B00E247B0 /* BaseRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRouter.swift; sourceTree = "<group>"; };
+		96F9DA7F205EE65300E247B0 /* BaseConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseConfigurator.swift; sourceTree = "<group>"; };
+		96F9DA81205EF4EA00E247B0 /* IntroConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroConfigurator.swift; sourceTree = "<group>"; };
 		AD0A02E78D3FA426280B1BE8 /* Pods_iTourism.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iTourism.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD7E3BCA1B7C27316E3F6086 /* Pods-iTourismTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTourismTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iTourismTests/Pods-iTourismTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -112,6 +164,97 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		960D10C92054827B0029B31A /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				96F9DA5D205EC86600E247B0 /* RemoteStore.swift */,
+				96F9DA5F205EC87200E247B0 /* RemoteStoreContract.swift */,
+				96F9DA61205ECE9300E247B0 /* RemoteStore+Auth.swift */,
+				96F9DA63205ECED200E247B0 /* RemoteStore+Attractions.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		960D10CA2054828B0029B31A /* Interactors */ = {
+			isa = PBXGroup;
+			children = (
+				96F9DA57205EBD7600E247B0 /* AuthInteractor.swift */,
+				96F9DA59205EBD9800E247B0 /* BaseInteractor.swift */,
+			);
+			path = Interactors;
+			sourceTree = "<group>";
+		};
+		960D10CB205482A90029B31A /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				96412CDC20547E0400EA3C79 /* Main.storyboard */,
+				96F9DA65205ED97900E247B0 /* Auth.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		960D10CC205482B90029B31A /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Xibs;
+			sourceTree = "<group>";
+		};
+		960D10CD205482C50029B31A /* LocalManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LocalManager;
+			sourceTree = "<group>";
+		};
+		960D10CE205482D10029B31A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		960D10CF205482D70029B31A /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				96F9DA72205EDB9D00E247B0 /* Splash */,
+				96F9DA67205EDA1100E247B0 /* Intro */,
+				96F9DA50205EBA2C00E247B0 /* Base */,
+				96F9DA45205EB9AC00E247B0 /* Login */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		960D10D0205482F20029B31A /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				960D10D1205482FD0029B31A /* Fonts */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		960D10D1205482FD0029B31A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		960D10D22054830B0029B31A /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				960D10D3205483120029B31A /* Extensions */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		960D10D3205483120029B31A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		96412CCC20547E0400EA3C79 = {
 			isa = PBXGroup;
 			children = (
@@ -137,9 +280,17 @@
 		96412CD720547E0400EA3C79 /* iTourism */ = {
 			isa = PBXGroup;
 			children = (
+				960D10C92054827B0029B31A /* Network */,
+				960D10CD205482C50029B31A /* LocalManager */,
+				960D10CA2054828B0029B31A /* Interactors */,
+				960D10CF205482D70029B31A /* UI */,
+				960D10CE205482D10029B31A /* Models */,
+				960D10CB205482A90029B31A /* Storyboard */,
+				960D10CC205482B90029B31A /* Xibs */,
+				960D10D0205482F20029B31A /* Assets */,
+				960D10D22054830B0029B31A /* Util */,
 				96412CD820547E0400EA3C79 /* AppDelegate.swift */,
 				96412CDA20547E0400EA3C79 /* ViewController.swift */,
-				96412CDC20547E0400EA3C79 /* Main.storyboard */,
 				96412CDF20547E0400EA3C79 /* Assets.xcassets */,
 				96412CE120547E0400EA3C79 /* LaunchScreen.storyboard */,
 				96412CE420547E0400EA3C79 /* Info.plist */,
@@ -163,6 +314,53 @@
 				96412CFA20547E0400EA3C79 /* Info.plist */,
 			);
 			path = iTourismUITests;
+			sourceTree = "<group>";
+		};
+		96F9DA45205EB9AC00E247B0 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				96F9DA46205EB9CD00E247B0 /* LoginViewController.swift */,
+				96F9DA48205EB9E000E247B0 /* LoginContract.swift */,
+				96F9DA4C205EBA0500E247B0 /* LoginPresenter.swift */,
+				96F9DA4E205EBA1900E247B0 /* LoginRouter.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		96F9DA50205EBA2C00E247B0 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				96F9DA51205EBA5B00E247B0 /* BaseViewController.swift */,
+				96F9DA53205EBA6800E247B0 /* BaseContract.swift */,
+				96F9DA55205EBA7800E247B0 /* BasePresenter.swift */,
+				96F9DA7D205EE17B00E247B0 /* BaseRouter.swift */,
+				96F9DA7F205EE65300E247B0 /* BaseConfigurator.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		96F9DA67205EDA1100E247B0 /* Intro */ = {
+			isa = PBXGroup;
+			children = (
+				96F9DA68205EDAD300E247B0 /* IntroViewController.swift */,
+				96F9DA6A205EDB1C00E247B0 /* IntroContract.swift */,
+				96F9DA6E205EDB7B00E247B0 /* IntroPresenter.swift */,
+				96F9DA70205EDB9000E247B0 /* IntroRouter.swift */,
+				96F9DA81205EF4EA00E247B0 /* IntroConfigurator.swift */,
+			);
+			path = Intro;
+			sourceTree = "<group>";
+		};
+		96F9DA72205EDB9D00E247B0 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				96F9DA73205EDBAC00E247B0 /* SplashViewController.swift */,
+				96F9DA75205EDBB700E247B0 /* SplashContract.swift */,
+				96F9DA77205EDBC200E247B0 /* SplashConfigurator.swift */,
+				96F9DA79205EDBCD00E247B0 /* SplashPresenter.swift */,
+				96F9DA7B205EDBD700E247B0 /* SplashRouter.swift */,
+			);
+			path = Splash;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,6 +479,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96F9DA66205ED97900E247B0 /* Auth.storyboard in Resources */,
 				96412CE320547E0400EA3C79 /* LaunchScreen.storyboard in Resources */,
 				96412CE020547E0400EA3C79 /* Assets.xcassets in Resources */,
 				96412CDE20547E0400EA3C79 /* Main.storyboard in Resources */,
@@ -325,9 +524,22 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-iTourismTests/Pods-iTourismTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAlamofire/RxAlamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAlamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -455,8 +667,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96F9DA78205EDBC200E247B0 /* SplashConfigurator.swift in Sources */,
+				96F9DA62205ECE9300E247B0 /* RemoteStore+Auth.swift in Sources */,
+				96F9DA56205EBA7800E247B0 /* BasePresenter.swift in Sources */,
+				96F9DA4F205EBA1900E247B0 /* LoginRouter.swift in Sources */,
+				96F9DA58205EBD7600E247B0 /* AuthInteractor.swift in Sources */,
+				96F9DA49205EB9E000E247B0 /* LoginContract.swift in Sources */,
+				96F9DA5A205EBD9800E247B0 /* BaseInteractor.swift in Sources */,
+				96F9DA69205EDAD300E247B0 /* IntroViewController.swift in Sources */,
+				96F9DA7E205EE17B00E247B0 /* BaseRouter.swift in Sources */,
+				96F9DA47205EB9CD00E247B0 /* LoginViewController.swift in Sources */,
+				96F9DA7A205EDBCD00E247B0 /* SplashPresenter.swift in Sources */,
+				96F9DA64205ECED200E247B0 /* RemoteStore+Attractions.swift in Sources */,
+				96F9DA6B205EDB1C00E247B0 /* IntroContract.swift in Sources */,
+				96F9DA60205EC87200E247B0 /* RemoteStoreContract.swift in Sources */,
+				96F9DA7C205EDBD700E247B0 /* SplashRouter.swift in Sources */,
+				96F9DA4D205EBA0500E247B0 /* LoginPresenter.swift in Sources */,
+				96F9DA52205EBA5B00E247B0 /* BaseViewController.swift in Sources */,
+				96F9DA71205EDB9000E247B0 /* IntroRouter.swift in Sources */,
+				96F9DA76205EDBB700E247B0 /* SplashContract.swift in Sources */,
 				96412CDB20547E0400EA3C79 /* ViewController.swift in Sources */,
 				96412CD920547E0400EA3C79 /* AppDelegate.swift in Sources */,
+				96F9DA54205EBA6800E247B0 /* BaseContract.swift in Sources */,
+				96F9DA82205EF4EA00E247B0 /* IntroConfigurator.swift in Sources */,
+				96F9DA5E205EC86600E247B0 /* RemoteStore.swift in Sources */,
+				96F9DA80205EE65300E247B0 /* BaseConfigurator.swift in Sources */,
+				96F9DA6F205EDB7B00E247B0 /* IntroPresenter.swift in Sources */,
+				96F9DA74205EDBAC00E247B0 /* SplashViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

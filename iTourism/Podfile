@@ -10,6 +10,13 @@ target 'iTourism' do
   target 'iTourismTests' do
     inherit! :search_paths
     # Pods for testing
+	pod 'RxSwift',        '~> 4.0'
+	pod 'RxCocoa',        '~> 4.0'
+	pod 'Alamofire',      '~> 4.5'
+	pod 'RxAlamofire',    '~> 4.0'
+	pod 'AlamofireImage', '~> 3.3'
+	pod 'ObjectMapper',   '~> 3.1'
+
   end
 
   target 'iTourismUITests' do
